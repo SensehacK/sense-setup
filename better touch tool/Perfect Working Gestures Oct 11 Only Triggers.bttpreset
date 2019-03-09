@@ -1,0 +1,511 @@
+{
+  "BTTPresetName" : "Perfect Working Gestures Oct 11",
+  "BTTPresetUUID" : "CDB23200-5CFF-4D05-B8BE-421CAB49DAF1",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "77A627B0-DACA-4302-8D81-CF41590DD744",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 0,
+          "BTTOrder" : 4,
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        },
+        {
+          "BTTTriggerType" : 170,
+          "BTTTriggerTypeDescription" : "3 Finger FORCE Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,12",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "6ADB0FA8-B7C3-46E2-A29C-FBF555D6BFCB",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,46",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "C47D339D-984E-492F-84D6-9AB66FE90B03",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 179,
+          "BTTTriggerTypeDescription" : "2 Finger Double-Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 46,
+          "BTTPredefinedActionName" : "Application Switcher",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "1A364994-ABFD-4F6D-AB4F-9F8B33CEA1A4",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,45",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "8766A9FD-C6D5-49AD-BB6C-87D9A9F69DC8",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "05AF87DB-543B-4200-AAD6-6908E6A703FE",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 19
+        },
+        {
+          "BTTTriggerType" : 163,
+          "BTTTriggerTypeDescription" : "3 Finger Double-Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "388C5ECF-80D4-48B8-8E0A-3294023F1544",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6
+        },
+        {
+          "BTTTriggerType" : 185,
+          "BTTTriggerTypeDescription" : "Corner FORCE Click Top Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,49",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "30093148-B334-45AC-9C3A-ACCD7818B427",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 130,
+          "BTTTriggerTypeDescription" : "5 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 13,
+          "BTTPredefinedActionName" : "Sleep Display",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "43A14210-0889-4F28-9647-88A334A11460",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Safari",
+      "BTTAppName" : "Safari",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "5F72E5D2-5083-47F5-91C6-DA04E3D7B6AB",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 9
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 132,
+          "BTTTriggerTypeDescription" : "TipTap Left (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 77,
+          "BTTPredefinedActionName" : "3F Swipe Left (Page Back)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "8C36E0F6-F0E9-4CF4-9F35-0C68B355AE91",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 25
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 117,
+          "BTTTriggerTypeDescription" : "Rotate Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "7F5A264E-374A-4982-89EE-78FBEE8AD5B7",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 21
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 137,
+          "BTTTriggerTypeDescription" : "TipTap Right (3 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,3",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D91CA202-B049-4F2B-BE26-C2B4354077F8",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 36
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 138,
+          "BTTTriggerTypeDescription" : "TipTap Middle (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,15",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "CA163457-961A-4B9A-AB65-1272B8A6148F",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 31
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 136,
+          "BTTTriggerTypeDescription" : "TipTap Left (3 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,37",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "92D9AEEB-5B08-4B95-9CC6-65D84891B555",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 28
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "E006F3F7-617F-492E-A1C0-667234168DC0",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 11
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 133,
+          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 78,
+          "BTTPredefinedActionName" : "3F Swipe Right (Page Forward)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "97CECA87-9BDA-4830-968C-E7E28A95523F",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 35
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "A7F4B774-6A39-455B-BBA9-185DDE4DB4A5",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 138,
+          "BTTTriggerTypeDescription" : "TipTap Middle (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,15",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "54BE4D70-7697-4493-913C-3FC337E72B03",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "AA3A4396-1309-4B3F-B7F5-F8D7119CEBD8",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "DB5E6B04-28E9-4F29-A33B-4FDBCD37D002",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 7
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 132,
+          "BTTTriggerTypeDescription" : "TipTap Left (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 77,
+          "BTTPredefinedActionName" : "3F Swipe Left (Page Back)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "BB9250F6-68E1-4BF5-AC8B-1E749A4C87A6",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "796262E6-095A-42AC-8B94-B936379314BA",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 133,
+          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 78,
+          "BTTPredefinedActionName" : "3F Swipe Right (Page Forward)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "51D3CF45-5100-499F-AAE0-BA9785DE0C27",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 104,
+          "BTTTriggerTypeDescription" : "3 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "A363DF46-5F70-4DBD-A0EF-DFBF734262D6",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Preview",
+      "BTTAppName" : "Preview",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,2",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "A58086C8-D160-41CA-9B24-EBA61A82EE49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 12
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,2",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "08E71708-19B7-4D97-A257-DF1E8534591F",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 8
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 129,
+          "BTTTriggerTypeDescription" : "5 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,51",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "7A33646E-A8E7-450C-A904-E6FF5FE2E8F4",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 18
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,8",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "57728B08-2B85-4A7C-9825-EF8BFE85B1A9",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 24,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTPredefinedActionType" : 255,
+              "BTTPredefinedActionName" : "Perform Haptic Feedback on Trackpad",
+              "BTTHapticFeedbackAction" : 4,
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "3F74C948-537F-406A-946D-BAD88398AB54",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 37
+            }
+          ]
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 133,
+          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,20",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "3A41498E-BE9B-49C3-8544-FFCF63647697",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 33
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 105,
+          "BTTTriggerTypeDescription" : "4 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,31",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "832AECBC-A96E-4BEA-9929-3BFC231B295E",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 14
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 132,
+          "BTTTriggerTypeDescription" : "TipTap Left (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,18",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "6386B266-9ACD-40E5-B772-C1ED63F5614F",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 27
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 138,
+          "BTTTriggerTypeDescription" : "TipTap Middle (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,19",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "6E57382E-E477-4365-9311-9398EA55E3EF",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 30
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 128,
+          "BTTTriggerTypeDescription" : "5 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,51",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "322D34BB-0E82-474E-B352-29B161810DF6",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 17
+        },
+        {
+          "BTTGestureNotes" : "Please select a Gesture",
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,9",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "90420193-C9F3-4720-8123-464FE3C08A9D",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 32
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
