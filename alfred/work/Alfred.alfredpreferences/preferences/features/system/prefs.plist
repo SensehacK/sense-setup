@@ -9,6 +9,6 @@
 	<key>shutdownKeyword</key>
 	<string>sd</string>
 	<key>sleepdisplaysKeyword</key>
-	<string>sld</string>
+	<string> sleepd</string>
 </dict>
 </plist>
