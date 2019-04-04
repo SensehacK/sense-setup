@@ -25,6 +25,11 @@ Just exported the full settings off Alfred preferences folder.
 
 ## Terminal
 
-Just exported the themes off Terminal preferences.
+Just exported the themes off Terminal preferences & Bash profile overall.
+
+## NPM
+
+Listing my must have NPM dependencies.
+[NPM] (npm/npm_install.md)
 
 ### Kautilya
