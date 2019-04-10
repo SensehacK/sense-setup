@@ -27,3 +27,13 @@ alias go='git checkout '
 
 # alias hello='echo "$__ksWelcome" '
 # alias ks="echo 'Kautilya, This is it!' "
+
+# Terminal Alias
+alias clr='cat /dev/null > ~/.bash_history && history -c && exit'
+
+# hybrid ionic commands
+alias icb='ionic cordova build ios --emulator'
+alias ib='ionic cordova build'
+alias ni='npm install'
+alias ii='ionic info'
+alias is='ionic serve'
