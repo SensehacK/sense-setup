@@ -24,6 +24,10 @@ alias gb='git branch '
 alias gc='git commit '
 alias gcm='git commit -m '
 alias go='git checkout '
+alias gss='git stash '
+alias gsa='git stash apply '
+
+
 
 # alias hello='echo "$__ksWelcome" '
 # alias ks="echo 'Kautilya, This is it!' "
