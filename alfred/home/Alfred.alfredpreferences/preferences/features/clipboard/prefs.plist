@@ -2,12 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>autoExpandSnippetsSound</key>
+	<false/>
+	<key>blacklist</key>
+	<array>
+		<string>Keychain Access</string>
+		<string>SecurityAgent</string>
+		<string>1Password</string>
+		<string>Wallet</string>
+		<string>1Password 7</string>
+	</array>
+	<key>fastAppend</key>
+	<true/>
+	<key>fastAppendPlaySound</key>
+	<false/>
 	<key>hotkey</key>
 	<dict>
 		<key>key</key>
 		<integer>8</integer>
 		<key>mod</key>
-		<integer>524288</integer>
+		<integer>262144</integer>
 		<key>string</key>
 		<string>C</string>
 	</dict>

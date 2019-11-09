@@ -4,8 +4,16 @@
 <dict>
 	<key>ejectKeywordEnabled</key>
 	<true/>
-	<key>ejectType</key>
-	<integer>0</integer>
+	<key>ejectallKeywordEnabled</key>
+	<true/>
+	<key>emptytrashKeyword</key>
+	<string>etrash</string>
+	<key>forcequitKeyword</key>
+	<string>fquit</string>
+	<key>quitKeyword</key>
+	<string>q</string>
+	<key>shutdownKeyword</key>
+	<string>shut</string>
 	<key>sleepdisplaysKeyword</key>
 	<string>sleepd</string>
 </dict>

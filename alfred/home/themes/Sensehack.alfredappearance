@@ -4,9 +4,9 @@
       "textSpacing" : 5,
       "subtext" : {
         "size" : 12,
-        "colorSelected" : "#BD93F9A8",
+        "colorSelected" : "#18F424A8",
         "font" : "System",
-        "color" : "#6171A3BF"
+        "color" : "#4CC585CB"
       },
       "shortcut" : {
         "size" : 16,
@@ -38,7 +38,7 @@
       "backgroundSelected" : "#A3CCFEFF"
     },
     "window" : {
-      "color" : "#282A36BF",
+      "color" : "#000000FF",
       "paddingHorizontal" : 4,
       "width" : 559,
       "borderPadding" : 0,
@@ -47,15 +47,15 @@
       "roundness" : 3,
       "paddingVertical" : 4
     },
-    "credit" : "Zeno Rocha",
+    "credit" : "Kautilya",
     "separator" : {
       "color" : "#CBCBCBF3",
       "thickness" : 0
     },
     "scrollbar" : {
-      "color" : "#C1FF71FF",
+      "color" : "#50FA7BFF",
       "thickness" : 2
     },
-    "name" : "Dracula"
+    "name" : "Sensehack"
   }
 }
