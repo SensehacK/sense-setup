@@ -1,0 +1,15 @@
+/Applications/qbittorrent.app
+/Applications/iFunBox.app
+/Applications/SHAREit.app
+/Applications/Discord.app
+/Applications/Day One.app
+/Applications/Tweetbot.app
+/Applications/Photos.app
+/Applications/Slack.app
+/Applications/WhatsApp.app
+/Applications/Kodi.app
+/Applications/Picasa.app
+/Applications/Telegram.app
+/Applications/VLC.app
+/Applications/4K Video Downloader.app
+/Applications/Journey.app

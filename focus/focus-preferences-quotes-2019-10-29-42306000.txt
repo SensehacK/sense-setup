@@ -1,0 +1,41 @@
+No matter how slick the demo is in rehearsal, when you do it in front of a live audience the probability of a flawless presentation is inversely proportional to the number of people watching, raised to the power of the amount of money involved. -Mark Gibbs
+The best time to plant a tree is 20 years ago. The second best time is now. -Chinese Proverb
+When I'm working on a problem, I never think about beauty. I think only how to solve the problem. -R. Buckminster Fuller
+Nine people can't make a baby in a month. -Fred Brooks
+One bad programmer can easily create two new jobs a year. -David Parnas
+A person who chases two rabbits catches neither. -Confucius
+Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -Brian Kernighan
+Focused, hard work is the real key to success. Keep your eyes on the goal, and just keep taking the next step towards completing it. -John Carmack
+Action is the foundational key to all success. -Pablo Picasso
+It should be noted that no ethically-trained software engineer would ever consent to write a DestroyBaghdad procedure. Basic professional ethics would instead require him to write a DestroyCity procedure, to which Baghdad could be given as a parameter. -Nathaniel Borenstein
+We don't make movies to make money, we make money to make more movies. -Walt Disney
+If debugging is the process of removing software bugs, then programming must be the process of putting them in. -Edsger Dijkstra
+Eighty percent of success is showing up. -Woody Allen
+Inspiration exists, but it has to find you working. -Pablo Picasso
+All men dream, but not equally. Those who dream by night in the dusty recesses of their minds, wake in the day to find that it was vanity: but the dreamers of the day are dangerous men, for they may act on their dreams with open eyes, to make them possible. -T. E. Lawrence
+The trouble with programmers is that you can never tell what a programmer is doing until it's too late. -Seymour Cray
+Linux is only free if your time has no value. -Jamie Zawinski
+Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction. -E. F. Schumacher
+The mind is everything. What you think you become. -Buddha
+Design adds value faster than it adds cost. -Joel Spolsky
+The most important single aspect of software development is to be clear about what you are trying to build. -Bjarne Stroustrup
+When I am working on a problem, I never think about beauty but when I have finished, if the solution is not beautiful, I know it is wrong. -R. Buckminster Fuller
+If there is no wind, row. -Latin Proverb
+The secret of getting ahead is getting started. -Author unknown
+It's hard to beat a person who never gives up. -Babe Ruth
+It takes a touch of genius - and a lot of courage to move in the opposite direction. -Albert Einstein
+In theory there is no difference between theory and practice. In practice there is. -Yogi Berra
+When debugging, novices insert corrective code; experts remove defective code. -Richard E. Pattis
+Testing by itself does not improve software quality. Test results are an indicator of quality, but in and of themselves, they don't improve it. Trying to improve software quality by increasing the amount of testing is like trying to lose weight by weighing yourself more often. What you eat before you step onto the scale determines how much you will weigh, and the software development techniques you use determine how many errors testing will find. If you want to lose weight, don't buy a new scale; change your diet. If you want to improve your software, don't test more; develop better. -Steve McConnell
+Considering the current sad state of our computer programs, software development is clearly still a black art, and cannot yet be called an engineering discipline. -William J. Clinton
+Any fool can write code that a computer can understand. Good programmers write code that humans can understand. -Martin Fowler
+To understand recursion, one must first understand recursion. -Stephen Hawking
+There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult. -Tony Hoare
+Opportunities are usually disguised as hard work, so most people don't recognize them. -Ann Landers
+Journey of a thousand miles begins with one step. -Lao Tzu
+Measuring programming progress by lines of code is like measuring aircraft building progress... -Bill Gates
+Amateurs sit and wait for inspiration, the rest of us just get up and go to work. -Stephen King
+Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning. -Rick Cook
+Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law. -Douglas Hofstadter
+There is no substitute for hard work. -Thomas Edison
+My definition of an expert in any field is a person who knows enough about what's really going on to be scared. -P. J. Plauger
