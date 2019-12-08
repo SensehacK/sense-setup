@@ -23,3 +23,11 @@ Bonus tip: There is a transitional animation when you enter and exit full screen
 
 Get to Firefox Preferences > Home
 Scroll down and un-check Snippets option box.
+
+
+
+## Disable the nightly popup or Badge at the Menu
+Set it to bigger number 65k is in seconds
+
+> app.update.badgeWaitTime     	65000
+> app.update.promptWaitTime	    43200
