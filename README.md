@@ -21,15 +21,19 @@ Stack Overflow Copied Text [Link](https://stackoverflow.com/questions/35368889/h
 
 ## Alfred
 
-Just exported the full settings off Alfred preferences folder.
+Just exported the full settings from Alfred preferences folder.
 
 ## Terminal
 
-Just exported the themes off Terminal preferences & Bash profile overall.
+Just exported the themes from Terminal preferences & Bash profile overall.
 
 ## NPM
 
 Listing my must have NPM dependencies.
 [NPM] (npm/npm_install.md)
 
-### Kautilya
+
+
+### Authored by : [Kautilya Save](https://sensehack.github.io/)
+
+### [GitHub](https://github.com/SensehacK)

@@ -1,3 +1,5 @@
+
+
 clear && printf '\e[3J'
 #Variables declared
 __sensehack="***************************
@@ -35,9 +37,19 @@ alias gsa='git stash apply '
 # Terminal Alias
 alias clr='cat /dev/null > ~/.bash_history && history -c && exit'
 
+# Npm 
+alias ni='npm install'
+alias ns='npm start'
+alias ibp='ionic build --prod'
+
 # hybrid ionic commands
 alias icb='ionic cordova build ios --emulator'
 alias ib='ionic cordova build'
-alias ni='npm install'
 alias ii='ionic info'
 alias is='ionic serve'
+
+
+
+
+# application shorthand
+alias textedit='open -a TextEdit'
