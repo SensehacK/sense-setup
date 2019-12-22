@@ -11,6 +11,8 @@ C:\Users\username\AppData\Roaming\Code\User on Windows 10
 ~/Library/Application Support/Code/User/ on Mac OS X
 The files are settings.json and keybindings.json. Simply copy them to the target machine.
 
+Gist [Link](https://gist.github.com/SensehacK/82e02dc6ba414c430e07828d14213b11)
+
 Your extensions are in
 
 ~/.vscode/extensions on Linux and Mac OS X
@@ -30,9 +32,7 @@ Just exported the themes from Terminal preferences & Bash profile overall.
 ## NPM
 
 Listing my must have NPM dependencies.
-[NPM] (npm/npm_install.md)
-
-
+[NPM](npm/npm_install.md)
 
 ### Authored by : [Kautilya Save](https://sensehack.github.io/)
 
