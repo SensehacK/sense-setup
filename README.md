@@ -11,6 +11,9 @@ C:\Users\username\AppData\Roaming\Code\User on Windows 10
 ~/Library/Application Support/Code/User/ on Mac OS X
 The files are settings.json and keybindings.json. Simply copy them to the target machine.
 
+Use this extension and follow the instructions to create or import gist file which contains Visual Studio Code settings in your workspace or code editor instance.
+Settings Sync Extension [Link](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
 Gist [Link](https://gist.github.com/SensehacK/82e02dc6ba414c430e07828d14213b11)
 
 Your extensions are in
