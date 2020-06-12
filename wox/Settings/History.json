@@ -1,0 +1,40 @@
+{
+  "Items": [
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2020-06-12T16:07:15.1582967-04:00"
+    },
+    {
+      "Query": "sett",
+      "ExecutedDateTime": "2020-06-12T16:07:29.8823105-04:00"
+    },
+    {
+      "Query": "setting",
+      "ExecutedDateTime": "2020-06-12T16:07:47.1293902-04:00"
+    },
+    {
+      "Query": "settings",
+      "ExecutedDateTime": "2020-06-12T16:12:42.0098325-04:00"
+    },
+    {
+      "Query": "set",
+      "ExecutedDateTime": "2020-06-12T16:13:47.3542321-04:00"
+    },
+    {
+      "Query": "s",
+      "ExecutedDateTime": "2020-06-12T16:14:26.7613004-04:00"
+    },
+    {
+      "Query": "note",
+      "ExecutedDateTime": "2020-06-12T16:16:08.7351854-04:00"
+    },
+    {
+      "Query": "vlc",
+      "ExecutedDateTime": "2020-06-12T16:23:53.9204159-04:00"
+    },
+    {
+      "Query": "setti",
+      "ExecutedDateTime": "2020-06-12T17:25:21.0130395-04:00"
+    }
+  ]
+}

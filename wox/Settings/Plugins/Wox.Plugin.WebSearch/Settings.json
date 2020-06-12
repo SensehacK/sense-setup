@@ -1,0 +1,50 @@
+{
+  "SearchSources": [
+    {
+      "Title": "Google",
+      "ActionKeyword": "g",
+      "Icon": "google.png",
+      "Url": "https://www.google.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Wikipedia",
+      "ActionKeyword": "wiki",
+      "Icon": "wiki.png",
+      "Url": "https://en.wikipedia.org/wiki/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Duckduckgo",
+      "ActionKeyword": "duckduckgo",
+      "Icon": "duckduckgo.png",
+      "Url": "https://duckduckgo.com/?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Github",
+      "ActionKeyword": "github",
+      "Icon": "github.png",
+      "Url": "https://github.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Google Image",
+      "ActionKeyword": "image",
+      "Icon": "google.png",
+      "Url": "https://www.google.com/search?q={q}&tbm=isch",
+      "Enabled": true
+    },
+    {
+      "Title": "Youtube",
+      "ActionKeyword": "youtube",
+      "Icon": "youtube.png",
+      "Url": "https://www.youtube.com/results?search_query={q}",
+      "Enabled": true
+    }
+  ],
+  "EnableSuggestion": false,
+  "Suggestion": "Google",
+  "BrowserPath": null,
+  "OpenInNewBrowser": true
+}

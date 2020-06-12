@@ -1,0 +1,10 @@
+{
+  "Count": {
+    "dir": 1
+  },
+  "Shell": 1,
+  "ReplaceWinR": false,
+  "LeaveShellOpen": false,
+  "RunAsAdministrator": false,
+  "SupportWSL": false
+}
