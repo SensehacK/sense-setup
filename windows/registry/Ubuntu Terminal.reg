@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+Replace Kautilya with your user name!
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ubuntu]
+@="Open Ubuntu Terminal here"
+"Icon"="%USERPROFILE%/AppData/Local/WindowsTerminal/ubuntu.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ubuntu\command]
+@="C:\\Users\\Kautilya\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe -d . --profile=\"Ubuntu-18.04\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\ubuntu]
+@="Open Ubuntu Terminal here"
+"Icon"="%USERPROFILE%/AppData/Local/WindowsTerminal/ubuntu.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\ubuntu\command]
+@="C:\\Users\\Kautilya\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe  --startingDirectory=\"%1\" --profile=\"Ubuntu-18.04\""
