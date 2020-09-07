@@ -1,0 +1,11 @@
+https://www.vlchelp.com/how-to-backup-and-restore-preferences/
+
+
+To backup and restore VLC Media Player’s preferences, follow these steps:
+
+    Hit the Start/Windows Key + R to open the Run dialog.
+    Paste %appdata%\vlc\ in the input area and press OK.
+    VLC Appdata Folder Access
+    Windows Explorer will open This PC > C: > Users > [Username] > AppData > Roaming > vlc or something similar.
+    Select and copy[CTRL+C] to move [CTRL +V] the vlcrc and vlc-qt-interface.ini file and back it up.
+    Paste the backed up vlcrc and vlc-qt-interface.ini file and overwrite it in the same folder to get back the settings
