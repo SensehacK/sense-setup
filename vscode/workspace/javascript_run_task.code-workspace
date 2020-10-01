@@ -4,7 +4,7 @@
 			"path": "..\\..\\..\\playgrounds\\javascript\\problems"
 		},
 		{
-			"path": "..\\..\\..\\playgrounds\\javascript\\algo_casts\\exercises"
+			"path": "..\\..\\..\\playgrounds\\javascript\\algo_casts"
 		}
 	],
 	"settings": {
@@ -134,7 +134,7 @@
 		"telemetry.enableTelemetry": false,
 		"terminal.integrated.rendererType": "dom",
 		"window.openFoldersInNewWindow": "on",
-		"window.zoomLevel": 1,
+		"window.zoomLevel": 2,
 		"workbench.colorTheme": "Dracula",
 		"workbench.iconTheme": "material-icon-theme",
 		"update.mode": "start",
@@ -176,6 +176,7 @@
 			"dracula-theme.theme-dracula",
 			"eamodio.gitlens",
 			"esbenp.prettier-vscode",
+			"dbaeumer.jshint",
 			"firefox-devtools.vscode-firefox-debug",
 			"formulahendry.code-runner",
 			"streetsidesoftware.code-spell-checker",
