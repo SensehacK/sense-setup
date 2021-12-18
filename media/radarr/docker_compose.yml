@@ -11,11 +11,11 @@ services:
       - UMASK=022 #optional
     volumes:
       - ./volumes/radarr/config:/config
-      - /media/pi/Sensehack_Media/Movies:/movies
-      - /media/pi/Sensehack_Media/Bluray:/bluray
-      - /media/pi/Sensehack_Media/Downloads:/downloads
-      - /media/pi/Sensehack_Media/Downloads/completed:/downloads_complete
-      - /media/pi/Sensehack_Media/Downloads/downloading:/downloading
+      - /media/pi/SensehackMedia/Movies:/movies
+      - /media/pi/SensehackMedia/Bluray:/bluray
+      - /media/pi/SensehackMedia/Downloads:/downloads
+      - /media/pi/SensehackMedia/Downloads/completed:/downloads_complete
+      - /media/pi/SensehackMedia/Downloads/downloading:/downloading
     ports:
       - 7878:7878
     restart: unless-stopped

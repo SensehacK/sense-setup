@@ -1,0 +1,27 @@
+version: '3.3'
+services:
+    transmission-openvpn:
+        cap_add:
+            - NET_ADMIN
+        volumes:
+            - ./volumes/transmission/config:/config
+            - /media/pi/SensehackMedia/Movies:/movies
+            - /media/pi/SensehackMedia/Bluray:/bluray
+            - /media/pi/SensehackMedia/Downloads:/downloads
+            - /media/pi/SensehackMedia/Downloads/completed:/downloads_complete
+            - /media/pi/SensehackMedia/Downloads/downloading:/downloading
+        environment:
+            - OPENVPN_PROVIDER=VPNUNLIMITED
+            - OPENVPN_CONFIG=ca-tr
+            - OPENVPN_USERNAME=safa@gmail.com
+            - OPENVPN_PASSWORD=sagfawr
+            - LOCAL_NETWORK=192.168.0.0/24
+        logging:
+            driver: json-file
+            options:
+                max-size: 10m
+        ports:
+            - '9091:9091'
+
+        image: haugene/transmission-openvpn
+        container_name: transmission-vpn
