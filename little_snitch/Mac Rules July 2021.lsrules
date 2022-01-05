@@ -1,0 +1,2205 @@
+{
+  "description" : "Everything so far in relation with blocking manually as an alert as it comes to me.",
+  "name" : "Mac Rules July 2021",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "direction" : "incoming",
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "direction" : "incoming",
+      "modificationDate" : 1625608132.033416,
+      "owner" : "me",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "direction" : "incoming",
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "any",
+      "protocol" : "icmp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "direction" : "incoming",
+      "modificationDate" : 1625608132.033416,
+      "owner" : "me",
+      "process" : "any",
+      "protocol" : "icmp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "any",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "any",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "any",
+      "remote-domains" : [
+        "mzstatic.com",
+        "cdn-apple.com",
+        "apple.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : [
+        "mzstatic.com",
+        "cdn-apple.com",
+        "apple.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "me",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625762253.7128968,
+      "modificationDate" : 1625762253.7128968,
+      "owner" : "me",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "remote-domains" : "agilebits.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626108773.7868309,
+      "modificationDate" : 1626108773.7868309,
+      "owner" : "me",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "remote-domains" : "appcenter.ms"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625854704.2644811,
+      "modificationDate" : 1625854704.2644811,
+      "owner" : "me",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "remote-domains" : "1password.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626108793.36044,
+      "modificationDate" : 1626108793.36044,
+      "owner" : "me",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/Library\/LoginItems\/1Password Extension Helper.app\/Contents\/MacOS\/1Password Extension Helper",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610363.180841,
+      "modificationDate" : 1625610363.180841,
+      "owner" : "me",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670332.5510809,
+      "modificationDate" : 1625670332.5510809,
+      "owner" : "me",
+      "process" : "\/System\/Library\/Frameworks\/AddressBook.framework\/Versions\/A\/Helpers\/AddressBookSourceSync.app\/Contents\/MacOS\/AddressBookSourceSync",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/airportd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627055796.2248712,
+      "modificationDate" : 1627055796.2248712,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "remote-addresses" : "17.32.194.2"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627055798.2412829,
+      "modificationDate" : 1627055798.2412829,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "remote-addresses" : "17.32.194.34"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670211.806551,
+      "modificationDate" : 1625670211.806551,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "remote-addresses" : "17.137.166.35"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626440487.021008,
+      "modificationDate" : 1626440487.021008,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "remote-addresses" : "17.157.64.66"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626440490.0085559,
+      "modificationDate" : 1626440490.0085559,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "remote-addresses" : "17.179.252.2"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670160.7044001,
+      "modificationDate" : 1625670160.7044001,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AuthKit.framework\/Versions\/A\/Support\/akd",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625762255.7727551,
+      "modificationDate" : 1625762255.7727551,
+      "owner" : "me",
+      "process" : "\/Applications\/Alfred 4.app\/Contents\/MacOS\/Alfred",
+      "remote-domains" : "alfredapp.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626108839.234,
+      "modificationDate" : 1626108839.234,
+      "owner" : "me",
+      "process" : "\/Applications\/Alfred 4.app\/Contents\/MacOS\/Alfred",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625694887.6468658,
+      "modificationDate" : 1625694887.6468658,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/XPCServices\/AssetCacheLocatorService.xpc\/AssetCacheLocatorService",
+      "remote-addresses" : "2001:558:feed::1"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625694892.6691608,
+      "modificationDate" : 1625694892.6691608,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/XPCServices\/AssetCacheLocatorService.xpc\/AssetCacheLocatorService",
+      "remote-addresses" : "2001:558:feed::2"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625694897.2534928,
+      "modificationDate" : 1625694897.2534928,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/XPCServices\/AssetCacheLocatorService.xpc\/AssetCacheLocatorService",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625791041.146085,
+      "modificationDate" : 1625791041.146085,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "remote-addresses" : "2607:f428:ffff:ffff::1"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761170.1523981,
+      "modificationDate" : 1625761170.1523981,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "remote-addresses" : "2607:f428:ffff:ffff::1"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626707794.1472249,
+      "modificationDate" : 1626707794.1472249,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625791043.4308009,
+      "modificationDate" : 1625791043.4308009,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761172.6333241,
+      "modificationDate" : 1625761172.6333241,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625845347.859122,
+      "modificationDate" : 1625845347.859122,
+      "owner" : "me",
+      "process" : "\/Applications\/Authy Desktop.app\/Contents\/MacOS\/Authy Desktop",
+      "remote-domains" : "us-east-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625845346.0359511,
+      "modificationDate" : 1625845346.0359511,
+      "owner" : "me",
+      "process" : "\/Applications\/Authy Desktop.app\/Contents\/MacOS\/Authy Desktop",
+      "remote-domains" : "authy.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625763408.9298091,
+      "modificationDate" : 1625763408.9298091,
+      "owner" : "me",
+      "process" : "\/Applications\/Bartender 4.app\/Contents\/MacOS\/Bartender 4",
+      "remote-domains" : "macbartender.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670176.672555,
+      "modificationDate" : 1625670176.672555,
+      "owner" : "me",
+      "process" : "\/Applications\/Bartender 4.app\/Contents\/MacOS\/Bartender 4",
+      "remote-domains" : "macbartender.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626901711.2269759,
+      "modificationDate" : 1626901711.2269759,
+      "owner" : "me",
+      "process" : "\/Applications\/Be Focused Pro.app\/Contents\/MacOS\/Be Focused Pro",
+      "remote-domains" : "us-east-1.amazonaws.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626901709.78091,
+      "modificationDate" : 1626901709.78091,
+      "owner" : "me",
+      "process" : "\/Applications\/Be Focused Pro.app\/Contents\/MacOS\/Be Focused Pro",
+      "remote-domains" : "xwavesoft.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625670170.8842912,
+      "modificationDate" : 1625670170.8842912,
+      "owner" : "me",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "remote-domains" : "folivora.ai"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610642.6108851,
+      "modificationDate" : 1625610642.6108851,
+      "owner" : "me",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "remote-domains" : "dropbox.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/bootpd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610354.251761,
+      "modificationDate" : 1625610354.251761,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CalendarAgent.framework\/Executables\/CalendarAgent",
+      "remote-domains" : "googleusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626469658.5585351,
+      "modificationDate" : 1626469658.5585351,
+      "owner" : "me",
+      "process" : "\/System\/Library\/CoreServices\/Captive Network Assistant.app\/Contents\/MacOS\/Captive Network Assistant",
+      "remote-domains" : "aexp-static.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626469656.284241,
+      "modificationDate" : 1626469656.284241,
+      "owner" : "me",
+      "process" : "\/System\/Library\/CoreServices\/Captive Network Assistant.app\/Contents\/MacOS\/Captive Network Assistant",
+      "remote-domains" : "googletagmanager.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626469661.529336,
+      "modificationDate" : 1626469661.529336,
+      "owner" : "me",
+      "process" : "\/System\/Library\/CoreServices\/Captive Network Assistant.app\/Contents\/MacOS\/Captive Network Assistant",
+      "remote-domains" : "youtube.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626469652.681953,
+      "modificationDate" : 1626469652.681953,
+      "owner" : "me",
+      "process" : "\/System\/Library\/CoreServices\/Captive Network Assistant.app\/Contents\/MacOS\/Captive Network Assistant",
+      "remote-domains" : "americanexpress.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061783.0035491,
+      "modificationDate" : 1627061783.0035491,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-addresses" : "2607:f428:ffff:ffff::1"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773884.8096261,
+      "modificationDate" : 1625773884.8096261,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-addresses" : "2607:f428:ffff:ffff::1"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061785.590873,
+      "modificationDate" : 1627061785.590873,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-addresses" : "2607:f428:ffff:ffff::2"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773886.556776,
+      "modificationDate" : 1625773886.556776,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-addresses" : "2607:f428:ffff:ffff::2"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061776.5233901,
+      "modificationDate" : 1627061776.5233901,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "s3-us-west-2.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773874.0915251,
+      "modificationDate" : 1625773874.0915251,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "s3-us-west-2.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061777.961766,
+      "modificationDate" : 1627061777.961766,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "wakatime.com",
+      "via" : "\/Users\/ksave\/.wakatime\/wakatime-cli\/wakatime-cli"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773882.5296211,
+      "modificationDate" : 1625773882.5296211,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "wakatime.com",
+      "via" : "\/Users\/ksave\/.wakatime\/wakatime-cli\/wakatime-cli"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061774.5438371,
+      "modificationDate" : 1627061774.5438371,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773827.8518472,
+      "modificationDate" : 1625773827.8518472,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773876.977185,
+      "modificationDate" : 1625773876.977185,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773846.9090009,
+      "modificationDate" : 1625773846.9090009,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "gitlab.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773888.0272899,
+      "modificationDate" : 1625773888.0272899,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote-domains" : "wakatime.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061791.2917089,
+      "modificationDate" : 1627061791.2917089,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610253.1474881,
+      "modificationDate" : 1625610253.1474881,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/com.apple.Safari.SafeBrowsing.Service",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625610210.0120091,
+      "modificationDate" : 1625610210.0120091,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
+      "remote-domains" : "safebrowsing.apple"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610222.9782839,
+      "modificationDate" : 1625610222.9782839,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625854698.745533,
+      "modificationDate" : 1625854698.745533,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/Frameworks\/WebKit.framework\/XPCServices\/com.apple.WebKit.Networking.xpc\/com.apple.WebKit.Networking",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625780753.078022,
+      "modificationDate" : 1625780753.078022,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/System\/Library\/Frameworks\/WebKit.framework\/XPCServices\/com.apple.WebKit.Networking.xpc\/com.apple.WebKit.Networking",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626707505.361537,
+      "modificationDate" : 1626707505.361537,
+      "owner" : "system",
+      "process" : "\/Library\/SystemExtensions\/6E6457E0-7806-4CB3-A6FD-4ACA2E260AC1\/com.crowdstrike.falcon.Agent.systemextension\/Contents\/MacOS\/com.crowdstrike.falcon.Agent",
+      "remote-domains" : "cloudsink.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625670273.1406779,
+      "modificationDate" : 1626400146.566848,
+      "owner" : "system",
+      "process" : "\/Library\/SystemExtensions\/6E6457E0-7806-4CB3-A6FD-4ACA2E260AC1\/com.crowdstrike.falcon.Agent.systemextension\/Contents\/MacOS\/com.crowdstrike.falcon.Agent",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626966131.8896608,
+      "modificationDate" : 1626966131.8896608,
+      "owner" : "me",
+      "process" : "\/System\/Library\/Frameworks\/CoreTelephony.framework\/Support\/CommCenter",
+      "remote-addresses" : "208.54.39.3"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625612170.539156,
+      "modificationDate" : 1625612336.718245,
+      "owner" : "me",
+      "process" : "\/System\/Library\/Frameworks\/CoreTelephony.framework\/Support\/CommCenter",
+      "remote-domains" : "t-mobile.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "direction" : "incoming",
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "ports" : "68",
+      "process" : "\/usr\/libexec\/configd",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/configd",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626108945.5984731,
+      "modificationDate" : 1627061969.0168309,
+      "owner" : "me",
+      "priority" : "high",
+      "process" : "\/Applications\/Dropbox.app\/Contents\/MacOS\/Dropbox",
+      "remote-hosts" : "telemetry.dropbox.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625762276.5450411,
+      "modificationDate" : 1625762276.5450411,
+      "owner" : "me",
+      "process" : "\/Applications\/Dropbox.app\/Contents\/MacOS\/Dropbox",
+      "remote-domains" : "dropbox.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610246.282299,
+      "modificationDate" : 1625610246.282299,
+      "owner" : "me",
+      "process" : "\/Applications\/Dropbox.app\/Contents\/MacOS\/Dropbox",
+      "remote-domains" : "dropboxapi.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761804.1523771,
+      "modificationDate" : 1625761804.1523771,
+      "owner" : "me",
+      "process" : "\/Applications\/Dropbox.app\/Contents\/MacOS\/Dropbox",
+      "remote-domains" : "getdropbox.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625762290.292973,
+      "modificationDate" : 1625762290.292973,
+      "owner" : "me",
+      "process" : "\/Applications\/Dropbox.app\/Contents\/MacOS\/Dropbox",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625695435.0676842,
+      "modificationDate" : 1625695435.0676842,
+      "owner" : "me",
+      "process" : "\/Users\/ksave\/Library\/Dropbox\/DropboxMacUpdate.app\/Contents\/MacOS\/DropboxMacUpdate",
+      "remote-domains" : "dropbox.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670876.6977849,
+      "modificationDate" : 1625670876.6977849,
+      "owner" : "me",
+      "process" : "\/Applications\/Fantastical 2.app\/Contents\/MacOS\/Fantastical 2",
+      "remote-domains" : "flexibits.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625684631.8320851,
+      "modificationDate" : 1625684631.8320851,
+      "owner" : "me",
+      "process" : "\/Applications\/Fantastical 2.app\/Contents\/MacOS\/Fantastical 2",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608172.3709331,
+      "modificationDate" : 1625608172.3709331,
+      "owner" : "me",
+      "process" : "\/Applications\/Fantastical 2.app\/Contents\/MacOS\/Fantastical 2",
+      "remote-domains" : "googleusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625612064.84658,
+      "modificationDate" : 1625612212.6514158,
+      "owner" : "me",
+      "process" : "\/Applications\/Fantastical 2.app\/Contents\/MacOS\/Fantastical 2",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625609958.4622722,
+      "modificationDate" : 1625610054.0259352,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626818634.2661772,
+      "direction" : "incoming",
+      "modificationDate" : 1626818634.2661772,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "108.177.121.189"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626463316.48912,
+      "direction" : "incoming",
+      "modificationDate" : 1626463316.48912,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "142.250.114.189"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626966275.7566741,
+      "direction" : "incoming",
+      "modificationDate" : 1626966275.7566741,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "142.250.125.189"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626721456.5007439,
+      "direction" : "incoming",
+      "modificationDate" : 1626721456.5007439,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "142.250.152.189"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741212.129137,
+      "direction" : "incoming",
+      "modificationDate" : 1626741212.129137,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "172.217.212.189"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626895194.151366,
+      "direction" : "incoming",
+      "modificationDate" : 1626895194.151366,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "172.253.114.189"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626811413.6533089,
+      "direction" : "incoming",
+      "modificationDate" : 1626811413.6533089,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "173.194.193.189"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626795302.609647,
+      "direction" : "incoming",
+      "modificationDate" : 1626795302.609647,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "173.194.198.189"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625609941.114465,
+      "modificationDate" : 1625610054.0265698,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "2606:4700:90:0:f22e:fbec:5bed:a9b9"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625609938.5096312,
+      "modificationDate" : 1625610054.026984,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "gitlab.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625609954.927696,
+      "modificationDate" : 1625610054.027806,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox Nightly.app\/Contents\/MacOS\/firefox",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625698890.0191889,
+      "modificationDate" : 1625698890.0191889,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761168.335505,
+      "modificationDate" : 1625761168.335505,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625691574.4364049,
+      "modificationDate" : 1625691574.4364049,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/Frameworks\/GitHub Desktop Helper (Renderer).app\/Contents\/MacOS\/GitHub Desktop Helper (Renderer)",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625691606.5193319,
+      "modificationDate" : 1625691606.5193319,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/Frameworks\/GitHub Desktop Helper (Renderer).app\/Contents\/MacOS\/GitHub Desktop Helper (Renderer)",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625670185.316714,
+      "modificationDate" : 1625670185.316714,
+      "owner" : "me",
+      "process" : "\/Users\/ksave\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "remote-domains" : "google.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626108810.4211531,
+      "modificationDate" : 1626108810.4211531,
+      "owner" : "me",
+      "process" : "\/Users\/ksave\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "remote" : "any",
+      "via" : "\/Users\/ksave\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/ksfetch"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761915.436264,
+      "modificationDate" : 1625761915.436264,
+      "owner" : "me",
+      "process" : "\/Applications\/iA Writer.app\/Contents\/MacOS\/iA Writer",
+      "remote-domains" : "ia.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626446125.589102,
+      "modificationDate" : 1626446125.589102,
+      "owner" : "me",
+      "process" : "\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "remote-domains" : "iina.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625776466.4980412,
+      "modificationDate" : 1625776466.4980412,
+      "owner" : "me",
+      "process" : "\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "remote-domains" : "iina.io"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625680025.9602909,
+      "modificationDate" : 1625680120.678252,
+      "owner" : "me",
+      "process" : "\/Applications\/iStat Menus.app\/Contents\/MacOS\/iStat Menus",
+      "remote-domains" : "paddle.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626796742.8825121,
+      "modificationDate" : 1626796742.8825121,
+      "owner" : "me",
+      "process" : "\/Applications\/iStat Menus.app\/Contents\/MacOS\/iStat Menus",
+      "remote-domains" : "istatmenus.app"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625762301.2351871,
+      "modificationDate" : 1625762301.2351871,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/iStat Menus 6\/iStat Menus Status.app\/Contents\/MacOS\/iStat Menus Status",
+      "remote-addresses" : "1.0.0.1"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626109011.506104,
+      "modificationDate" : 1626109011.506104,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/iStat Menus 6\/iStat Menus Status.app\/Contents\/MacOS\/iStat Menus Status",
+      "remote-addresses" : "0.0.0.0-255.255.255.255, ::-ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761801.4811411,
+      "modificationDate" : 1625761801.4811411,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/iStat Menus 6\/iStat Menus Status.app\/Contents\/MacOS\/iStat Menus Status",
+      "remote-domains" : "istatmenus.app"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625762305.3589101,
+      "modificationDate" : 1625762305.3589101,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/iStat Menus 6\/iStat Menus Status.app\/Contents\/MacOS\/iStat Menus Status",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626440217.9531322,
+      "modificationDate" : 1626440217.9531322,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/iTunesCloud.framework\/Support\/itunescloudd",
+      "remote-addresses" : "23.5.130.217"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706378.709625,
+      "modificationDate" : 1626706378.709625,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/iTunesCloud.framework\/Support\/itunescloudd",
+      "remote-addresses" : "23.10.240.200"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706114.750803,
+      "modificationDate" : 1626706114.750803,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/iTunesCloud.framework\/Support\/itunescloudd",
+      "remote-addresses" : "23.35.200.54"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626794370.2629371,
+      "modificationDate" : 1626794370.2629371,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/iTunesCloud.framework\/Support\/itunescloudd",
+      "remote-domains" : "apple.com.edgesuite.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626477137.658376,
+      "modificationDate" : 1626477137.658376,
+      "owner" : "me",
+      "process" : "\/Users\/ksave\/bin\/JDownloader 2.0\/JDownloader2.app\/Contents\/MacOS\/JavaApplicationStub",
+      "remote-domains" : "mega.co.nz"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626477135.0385771,
+      "modificationDate" : 1626477135.0385771,
+      "owner" : "me",
+      "process" : "\/Users\/ksave\/bin\/JDownloader 2.0\/JDownloader2.app\/Contents\/MacOS\/JavaApplicationStub",
+      "remote-domains" : "appwork.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626477131.0936739,
+      "modificationDate" : 1626477131.0936739,
+      "owner" : "me",
+      "process" : "\/Users\/ksave\/bin\/JDownloader 2.0\/JDownloader2.app\/Contents\/MacOS\/JavaApplicationStub",
+      "remote-domains" : "google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626477139.640193,
+      "modificationDate" : 1626477139.640193,
+      "owner" : "me",
+      "process" : "\/Users\/ksave\/bin\/JDownloader 2.0\/JDownloader2.app\/Contents\/MacOS\/JavaApplicationStub",
+      "remote-domains" : "gstatic.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626477133.159579,
+      "modificationDate" : 1626477133.159579,
+      "owner" : "me",
+      "process" : "\/Users\/ksave\/bin\/JDownloader 2.0\/JDownloader2.app\/Contents\/MacOS\/JavaApplicationStub",
+      "remote-domains" : "youtube.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626458033.0761662,
+      "modificationDate" : 1626458033.0761662,
+      "owner" : "me",
+      "process" : "\/Applications\/LastPass.app\/Contents\/MacOS\/LastPass",
+      "remote-domains" : "lastpass.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625769773.8013549,
+      "modificationDate" : 1625769773.8013549,
+      "owner" : "me",
+      "process" : "\/Applications\/LastPass.app\/Contents\/MacOS\/LastPass",
+      "remote-domains" : "lastpass.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625860380.6739459,
+      "modificationDate" : 1625860380.6739459,
+      "owner" : "me",
+      "process" : "\/Applications\/LibreOffice.app\/Contents\/MacOS\/soffice",
+      "remote-domains" : "identrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625860383.065203,
+      "modificationDate" : 1625860383.065203,
+      "owner" : "me",
+      "process" : "\/Applications\/LibreOffice.app\/Contents\/MacOS\/soffice",
+      "remote-domains" : "lencr.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625860377.233655,
+      "modificationDate" : 1625860377.233655,
+      "owner" : "me",
+      "process" : "\/Applications\/LibreOffice.app\/Contents\/MacOS\/soffice",
+      "remote-domains" : "libreoffice.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625694969.89024,
+      "modificationDate" : 1625694969.89024,
+      "owner" : "me",
+      "process" : "\/Applications\/Little Snitch.app\/Contents\/Components\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
+      "remote-domains" : "obdev.at"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626101704.782645,
+      "modificationDate" : 1626101704.782645,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/locationd",
+      "remote-addresses" : "17.57.12.16"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761806.0030761,
+      "modificationDate" : 1625761806.0030761,
+      "owner" : "me",
+      "process" : "\/Applications\/Logi Options.app\/Contents\/Support\/LogiMgrDaemon.app\/Contents\/MacOS\/LogiMgrDaemon",
+      "remote-domains" : "d23iz4esrwkib6.cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670196.4046049,
+      "modificationDate" : 1625670196.4046049,
+      "owner" : "me",
+      "process" : "\/Applications\/Logi Options.app\/Contents\/Support\/LogiMgrDaemon.app\/Contents\/MacOS\/LogiMgrDaemon",
+      "remote-domains" : "logi.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761175.2298789,
+      "modificationDate" : 1625761175.2298789,
+      "owner" : "me",
+      "process" : "\/Applications\/Logi Options.app\/Contents\/Support\/LogiMgrDaemon.app\/Contents\/MacOS\/LogiMgrDaemon",
+      "remote-domains" : "logitech.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670178.9006472,
+      "modificationDate" : 1625670178.9006472,
+      "owner" : "me",
+      "process" : "\/Applications\/Logi Options.app\/Contents\/Support\/LogiMgrDaemon.app\/Contents\/MacOS\/LogiMgrDaemon",
+      "remote-domains" : "logitech.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626882663.4448051,
+      "modificationDate" : 1626882663.4448051,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/Applications\/Maps.app\/Maps",
+      "remote-domains" : "yelpcdn.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625670328.867229,
+      "modificationDate" : 1626400452.3305759,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/mdmclient",
+      "remote-domains" : "jamfcloud.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625612094.900557,
+      "modificationDate" : 1625612212.6506109,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/mdmclient",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626469649.448416,
+      "direction" : "incoming",
+      "modificationDate" : 1626469649.448416,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "208.67.220.220"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponderHelper",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626891358.3885069,
+      "modificationDate" : 1626891358.3885069,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Messages.app\/Contents\/MacOS\/Messages",
+      "remote-domains" : "google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626893361.9968009,
+      "modificationDate" : 1626893361.9968009,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Messages.app\/Contents\/MacOS\/Messages",
+      "remote-domains" : "googleusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626891360.4823661,
+      "modificationDate" : 1626891360.4823661,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Messages.app\/Contents\/MacOS\/Messages",
+      "remote-domains" : "gstatic.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626907046.8032939,
+      "modificationDate" : 1626907046.8032939,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Messages.app\/Contents\/MacOS\/Messages",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741595.6651821,
+      "modificationDate" : 1626741595.6651821,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AutoUpdate",
+      "remote-domains" : "akamaized.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741582.634227,
+      "modificationDate" : 1626741582.634227,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AutoUpdate",
+      "remote-domains" : "azurewebsites.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741641.1445999,
+      "modificationDate" : 1626741641.1445999,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft AutoUpdate",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741589.8012331,
+      "modificationDate" : 1626741589.8012331,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-addresses" : "239.255.255.250"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741587.9832571,
+      "modificationDate" : 1626741587.9832571,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-addresses" : "2607:f428:ffff:ffff::1"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741591.5983629,
+      "modificationDate" : 1626741591.5983629,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-addresses" : "2607:f428:ffff:ffff::2"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741614.984848,
+      "modificationDate" : 1626741614.984848,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "bttrack.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741613.286,
+      "modificationDate" : 1626741613.286,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "doubleclick.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741677.6174641,
+      "modificationDate" : 1626741677.6174641,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "gnetwork.me"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741580.433742,
+      "modificationDate" : 1626741580.433742,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "microsoft.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741599.6633658,
+      "modificationDate" : 1626741599.6633658,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "skype.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741611.6375132,
+      "modificationDate" : 1626741611.6375132,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "agkn.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741609.1122651,
+      "modificationDate" : 1626741609.1122651,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "akamaized.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741605.742424,
+      "modificationDate" : 1626741605.742424,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "azure.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741757.8986869,
+      "modificationDate" : 1626741757.8986869,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "bamgrid.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741607.6842608,
+      "modificationDate" : 1626741607.6842608,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "bing.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741666.845829,
+      "modificationDate" : 1626741666.845829,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "criteo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741755.3191838,
+      "modificationDate" : 1626741755.3191838,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "disney-plus.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741749.1988349,
+      "modificationDate" : 1626741749.1988349,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "disneyplus.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741759.1001539,
+      "modificationDate" : 1626741759.1001539,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "go-mpulse.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741675.797502,
+      "modificationDate" : 1626741675.797502,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "lijit.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741601.5048971,
+      "modificationDate" : 1626741601.5048971,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "msn.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741756.715801,
+      "modificationDate" : 1626741756.715801,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "optimizely.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741658.3444231,
+      "modificationDate" : 1626741658.3444231,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "pubmatic.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741610.5875769,
+      "modificationDate" : 1626741610.5875769,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "scorecardresearch.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741620.6379681,
+      "modificationDate" : 1626741620.6379681,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "taboola.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741617.405401,
+      "modificationDate" : 1626741617.405401,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "virtualearth.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741622.235462,
+      "modificationDate" : 1626741622.235462,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741671.4367011,
+      "modificationDate" : 1626741671.4367011,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote-domains" : "zeotap.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626741761.6492591,
+      "modificationDate" : 1626741761.6492591,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Edge.app\/Contents\/MacOS\/Microsoft Edge",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626741585.597682,
+      "modificationDate" : 1626741585.597682,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626901618.150106,
+      "modificationDate" : 1626901618.150106,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/Applications\/News.app\/PlugIns\/NewsTag.appex\/NewsTag",
+      "remote-domains" : "apple.news"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625670431.3324289,
+      "modificationDate" : 1625670431.3324289,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/Applications\/News.app\/PlugIns\/NewsToday2.appex\/NewsToday2",
+      "remote-domains" : "apple.news"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625612356.5728741,
+      "modificationDate" : 1625612356.5728741,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/Applications\/News.app\/PlugIns\/NewsToday2.appex\/NewsToday2",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761181.222369,
+      "modificationDate" : 1625761181.222369,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/nsurlsessiond",
+      "remote-domains" : "dropbox.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761927.260294,
+      "modificationDate" : 1625761927.260294,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/nsurlsessiond",
+      "remote-addresses" : "23.63.70.30"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/ocspd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761179.0697861,
+      "modificationDate" : 1625761179.0697861,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670149.0002289,
+      "modificationDate" : 1625670149.0002289,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/promotedcontentd",
+      "remote-domains" : "ntp.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706116.2908092,
+      "modificationDate" : 1626706116.2908092,
+      "owner" : "me",
+      "process" : "\/Applications\/RescueTime.app\/Contents\/MacOS\/RescueTime",
+      "remote-addresses" : "34.226.161.241"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625840307.2783411,
+      "modificationDate" : 1625840307.2783411,
+      "owner" : "me",
+      "process" : "\/Applications\/RescueTime.app\/Contents\/MacOS\/RescueTime",
+      "remote-addresses" : "54.173.140.168"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625840309.7244039,
+      "modificationDate" : 1625840309.7244039,
+      "owner" : "me",
+      "process" : "\/Applications\/RescueTime.app\/Contents\/MacOS\/RescueTime",
+      "remote-domains" : "elb.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610187.618078,
+      "modificationDate" : 1625610187.618078,
+      "owner" : "me",
+      "process" : "\/Applications\/RescueTime.app\/Contents\/MacOS\/RescueTime",
+      "remote-domains" : "rescuetime.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626707255.54759,
+      "modificationDate" : 1626707255.54759,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-hosts" : "api-meet.ringcentral.com",
+      "via" : "\/Applications\/RingCentral.app\/Contents\/Frameworks\/RingCentral Helper.app\/Contents\/MacOS\/RingCentral Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626707258.8470149,
+      "modificationDate" : 1626707258.8470149,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-hosts" : "app.ringcentral.com",
+      "via" : "\/Applications\/RingCentral.app\/Contents\/Frameworks\/RingCentral Helper.app\/Contents\/MacOS\/RingCentral Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626707246.232235,
+      "modificationDate" : 1626707246.232235,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-hosts" : "sjc01-r09-sfu14.v.ringcentral.com",
+      "via" : "\/Applications\/RingCentral.app\/Contents\/Frameworks\/RingCentral Helper.app\/Contents\/MacOS\/RingCentral Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626707260.657949,
+      "modificationDate" : 1626707260.657949,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-hosts" : "v.ringcentral.com",
+      "via" : "\/Applications\/RingCentral.app\/Contents\/Frameworks\/RingCentral Helper.app\/Contents\/MacOS\/RingCentral Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706924.1132259,
+      "modificationDate" : 1626706924.1132259,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "d2rbro28ib85bu.cloudfront.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626707106.531127,
+      "modificationDate" : 1626707106.531127,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "sentry.io",
+      "via" : "\/Applications\/RingCentral.app\/Contents\/Frameworks\/RingCentral Helper.app\/Contents\/MacOS\/RingCentral Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626707096.760417,
+      "modificationDate" : 1626707096.760417,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "ringcentral.com",
+      "via" : "\/Applications\/RingCentral.app\/Contents\/Frameworks\/RingCentral Helper.app\/Contents\/MacOS\/RingCentral Helper"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626706929.2507281,
+      "modificationDate" : 1626706929.2507281,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "sentry.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706933.751101,
+      "modificationDate" : 1626706933.751101,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "launchdarkly.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706952.2819471,
+      "modificationDate" : 1626706952.2819471,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "pubnubapi.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625685095.8140111,
+      "modificationDate" : 1625685095.8140111,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "ringcentral.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625680814.2704051,
+      "modificationDate" : 1625680814.2704051,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "ringcentral.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706931.1245451,
+      "modificationDate" : 1626706931.1245451,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote-domains" : "zoom.us"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626707396.363801,
+      "modificationDate" : 1626707396.363801,
+      "owner" : "me",
+      "process" : "\/Applications\/RingCentral.app\/Contents\/MacOS\/RingCentral",
+      "remote" : "any",
+      "via" : "\/Applications\/RingCentral.app\/Contents\/Frameworks\/RingCentral Helper.app\/Contents\/MacOS\/RingCentral Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610395.2838249,
+      "modificationDate" : 1625610395.2838249,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625846470.807179,
+      "modificationDate" : 1625846470.807179,
+      "owner" : "me",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "remote-domains" : "signal.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625846467.87393,
+      "modificationDate" : 1625846467.87393,
+      "owner" : "me",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "remote-domains" : "whispersystems.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625856703.9479089,
+      "modificationDate" : 1625856703.9479089,
+      "owner" : "me",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "remote-domains" : "youtu.be"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625856706.1457939,
+      "modificationDate" : 1625856706.1457939,
+      "owner" : "me",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "remote-domains" : "youtube.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625856710.4515882,
+      "modificationDate" : 1625856710.4515882,
+      "owner" : "me",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625681516.783411,
+      "modificationDate" : 1625684711.1821089,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "remote-domains" : "slack-imgs.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670241.1776249,
+      "modificationDate" : 1625670241.1776249,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "remote-domains" : "slack.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625681511.418175,
+      "modificationDate" : 1625684711.1829371,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "remote-domains" : "slackb.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625681519.98961,
+      "modificationDate" : 1625684711.1834269,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625612045.0332189,
+      "modificationDate" : 1625612212.652626,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "ports" : "123",
+      "process" : "\/usr\/bin\/sntp",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625609948.1827221,
+      "modificationDate" : 1625610067.1551042,
+      "owner" : "me",
+      "process" : "\/Applications\/Spark.app\/Contents\/MacOS\/Spark",
+      "remote-domains" : "gmail.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625609952.3464131,
+      "modificationDate" : 1625610067.155741,
+      "owner" : "me",
+      "process" : "\/Applications\/Spark.app\/Contents\/MacOS\/Spark",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625681368.211307,
+      "modificationDate" : 1625684711.1838598,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-addresses" : "75.75.75.75"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610028.9683762,
+      "modificationDate" : 1625610067.1561289,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-addresses" : "239.255.255.250"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625681357.7656698,
+      "modificationDate" : 1625684711.184335,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-addresses" : "2001:558:feed::1"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625681366.956944,
+      "modificationDate" : 1625684711.1847839,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-addresses" : "2001:558:feed::2"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626707474.9607711,
+      "modificationDate" : 1626707474.9607711,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-domains" : "sentry.io",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610259.728148,
+      "modificationDate" : 1625610259.728148,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-domains" : "spotify.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625684635.222223,
+      "modificationDate" : 1625684635.222223,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625681371.2650399,
+      "modificationDate" : 1625684711.1852231,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625612077.8436499,
+      "modificationDate" : 1625612212.651011,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626794300.1282148,
+      "modificationDate" : 1626794300.1282148,
+      "owner" : "me",
+      "process" : "\/System\/Library\/CoreServices\/Spotlight.app\/Contents\/MacOS\/Spotlight",
+      "remote-domains" : "yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706112.9883161,
+      "modificationDate" : 1626706112.9883161,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/PlugIns\/StocksWidget.appex\/Contents\/MacOS\/StocksWidget",
+      "remote-domains" : "apple.news"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670672.5764809,
+      "modificationDate" : 1625670672.5764809,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/PlugIns\/StocksWidget.appex\/Contents\/MacOS\/StocksWidget",
+      "remote-domains" : "yahoo.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1626108845.6939189,
+      "modificationDate" : 1626108845.6939189,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/studentd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/syspolicyd",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.apple-cloudkit.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625610085.327698,
+      "modificationDate" : 1625610811.5375009,
+      "owner" : "me",
+      "process" : "\/Applications\/Things3.app\/Contents\/MacOS\/Things3",
+      "remote-domains" : "culturedcode.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625762663.813127,
+      "modificationDate" : 1625762663.813127,
+      "owner" : "me",
+      "process" : "\/Applications\/Things3.app\/Contents\/MacOS\/Things3",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "ports" : "123",
+      "process" : "\/usr\/libexec\/timed",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626889308.342912,
+      "modificationDate" : 1626889308.342912,
+      "owner" : "me",
+      "process" : "iOSSimulator.TrackVia.app\/TrackVia",
+      "remote-domains" : "app-measurement.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626889299.2734129,
+      "modificationDate" : 1626889299.2734129,
+      "owner" : "me",
+      "process" : "iOSSimulator.TrackVia.app\/TrackVia",
+      "remote-domains" : "crashlytics.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626889303.123605,
+      "modificationDate" : 1626889303.123605,
+      "owner" : "me",
+      "process" : "iOSSimulator.TrackVia.app\/TrackVia",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626889301.9238911,
+      "modificationDate" : 1626889301.9238911,
+      "owner" : "me",
+      "process" : "iOSSimulator.TrackVia.app\/TrackVia",
+      "remote-domains" : "xvia.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625609167.23331,
+      "modificationDate" : 1625610920.8754261,
+      "owner" : "me",
+      "process" : "iOSSimulator.TrackVia.app\/TrackVia",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/trustd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625608132.033416,
+      "modificationDate" : 1625608132.033416,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/trustd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626706469.7165298,
+      "modificationDate" : 1626706469.7165298,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote-domains" : "digicert.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625842895.309895,
+      "modificationDate" : 1625842895.309895,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote-domains" : "digicert.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625854600.941864,
+      "modificationDate" : 1625854600.941864,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote-domains" : "godaddy.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625770147.1612051,
+      "modificationDate" : 1625770147.1612051,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote-domains" : "godaddy.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626796323.208086,
+      "modificationDate" : 1626796323.208086,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote-domains" : "pki.goog"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625771304.7948041,
+      "modificationDate" : 1625771304.7948041,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote-domains" : "pki.goog"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626721938.7700491,
+      "modificationDate" : 1626721938.7700491,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote-domains" : "symcd.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625780758.0668411,
+      "modificationDate" : 1625780758.0668411,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote-domains" : "usertrust.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626879984.7116342,
+      "modificationDate" : 1626879984.7116342,
+      "owner" : "me",
+      "process" : "iOSSimulator.\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS.simruntime\/Contents\/Resources\/RuntimeRoot\/usr\/libexec\/trustd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670352.7661231,
+      "modificationDate" : 1625670352.7661231,
+      "owner" : "system",
+      "process" : "\/Library\/Apple\/System\/Library\/PrivateFrameworks\/MobileDevice.framework\/Versions\/A\/Resources\/usbmuxd",
+      "remote-hosts" : "l.local"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061781.9013309,
+      "modificationDate" : 1627061781.9013309,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "azureedge.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773830.7315412,
+      "modificationDate" : 1625773830.7315412,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "azureedge.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773865.5769019,
+      "modificationDate" : 1625773865.5769019,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "gravatar.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061779.7022581,
+      "modificationDate" : 1627061779.7022581,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "msecnd.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773826.5764451,
+      "modificationDate" : 1625773826.5764451,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "msecnd.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061772.8906929,
+      "modificationDate" : 1627061772.8906929,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "visualstudio.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773824.7576799,
+      "modificationDate" : 1625773824.7576799,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "visualstudio.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1627061784.491122,
+      "modificationDate" : 1627061784.491122,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "vsassets.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625773831.9764829,
+      "modificationDate" : 1625773831.9764829,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote-domains" : "vsassets.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625688971.4051549,
+      "disabled" : true,
+      "modificationDate" : 1625770320.8852,
+      "owner" : "me",
+      "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
+      "remote-domains" : "app-measurement.com",
+      "via" : "iOSSimulator.TrackVia.app\/TrackVia"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625688972.9954581,
+      "disabled" : true,
+      "modificationDate" : 1625770320.284287,
+      "owner" : "me",
+      "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
+      "remote-domains" : "googleapis.com",
+      "via" : "iOSSimulator.TrackVia.app\/TrackVia"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625691595.6562119,
+      "disabled" : true,
+      "modificationDate" : 1625770319.7960761,
+      "owner" : "me",
+      "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
+      "remote-domains" : "xvia.com",
+      "via" : "iOSSimulator.TrackVia.app\/TrackVia"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1626730561.871968,
+      "modificationDate" : 1626730561.871968,
+      "owner" : "me",
+      "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
+      "remote-domains" : "gitlab.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625775212.3393149,
+      "modificationDate" : 1625775212.3393149,
+      "owner" : "me",
+      "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
+      "remote-domains" : "gitlab.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1625610574.211333,
+      "disabled" : true,
+      "modificationDate" : 1625770299.4608169,
+      "owner" : "me",
+      "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
+      "remote" : "any",
+      "via" : "iOSSimulator.TrackVia.app\/TrackVia"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625764201.067342,
+      "modificationDate" : 1625770299.8427501,
+      "owner" : "me",
+      "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
+      "remote" : "any",
+      "via" : "iOSSimulator.TrackVia.app\/TrackVia"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625761912.932339,
+      "modificationDate" : 1625761912.932339,
+      "owner" : "me",
+      "process" : "\/Applications\/Zeplin.app\/Contents\/MacOS\/Zeplin",
+      "remote-domains" : "appcenter.ms"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625688857.6365461,
+      "modificationDate" : 1625688857.6365461,
+      "owner" : "me",
+      "process" : "\/Applications\/Zeplin.app\/Contents\/MacOS\/Zeplin",
+      "remote-domains" : "gravatar.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625670133.8310719,
+      "modificationDate" : 1625670133.8310719,
+      "owner" : "me",
+      "process" : "\/Applications\/Zeplin.app\/Contents\/MacOS\/Zeplin",
+      "remote-domains" : "gravatar.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625688883.0439339,
+      "modificationDate" : 1625688883.0439339,
+      "owner" : "me",
+      "process" : "\/Applications\/Zeplin.app\/Contents\/MacOS\/Zeplin",
+      "remote-domains" : "pusher.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625612041.1307101,
+      "modificationDate" : 1625612212.653017,
+      "owner" : "me",
+      "process" : "\/Applications\/Zeplin.app\/Contents\/MacOS\/Zeplin",
+      "remote-domains" : "pusher.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625688853.587219,
+      "modificationDate" : 1625688853.587219,
+      "owner" : "me",
+      "process" : "\/Applications\/Zeplin.app\/Contents\/MacOS\/Zeplin",
+      "remote-domains" : "zeplin.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1625612051.4067268,
+      "modificationDate" : 1625612212.6518059,
+      "owner" : "me",
+      "process" : "\/Applications\/Zeplin.app\/Contents\/MacOS\/Zeplin",
+      "remote-domains" : "zeplin.io"
+    }
+  ]
+}
