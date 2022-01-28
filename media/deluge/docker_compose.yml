@@ -1,0 +1,27 @@
+version: '3.3'
+services:
+    transmission-openvpn:
+        cap_add:
+            - NET_ADMIN
+        volumes:
+            - ./volumes/transmission/config:/config
+            - /media/pi/Sensehack_Media/Movies:/movies
+            - /media/pi/Sensehack_Media/Bluray:/bluray
+            - /media/pi/Sensehack_Media/Downloads:/downloads
+            - /media/pi/Sensehack_Media/Downloads/completed:/downloads_complete
+            - /media/pi/Sensehack_Media/Downloads/downloading:/downloading
+        environment:
+            - OPENVPN_PROVIDER=VPNUNLIMITED
+            - OPENVPN_CONFIG=ca-tr
+            - OPENVPN_USERNAME=afnkaf
+            - OPENVPN_PASSWORD=password
+            - LOCAL_NETWORK=192.168.0.0/24
+        logging:
+            driver: json-file
+            options:
+                max-size: 10m
+        ports:
+            - '9091:9091'
+        restart: unless-stopped
+        image: haugene/transmission-openvpn
+        container_name: transmission-vpn
