@@ -1,0 +1,13 @@
+no-csp-reports: * true
+no-large-media: behind-the-scene false
+no-scripting: www.skadden.com true
+no-strict-blocking: www.emjcd.com true
+no-strict-blocking: iupot.com true
+no-strict-blocking: udrivemyr54.com true
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
