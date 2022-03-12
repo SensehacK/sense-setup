@@ -1,0 +1,55 @@
+! 7/15/2019 https://outlook.live.com
+outlook.live.com##._1pHiM7jJITiO-ULj_dBGaM > ._3_hHr3kfEhbNYRFM5YJxH9 > ._23fxOotSm5HPNB1U_ZVw4i > ._3SSWjsJZkPdG9CzJsvEhTb > .N3k7EN5vRGTrONWBPg250
+outlook.live.com##._1pHiM7jJITiO-ULj_dBGaM > ._3_hHr3kfEhbNYRFM5YJxH9 > ._23fxOotSm5HPNB1U_ZVw4i
+outlook.live.com##._1pHiM7jJITiO-ULj_dBGaM > ._3_hHr3kfEhbNYRFM5YJxH9
+
+! 8/17/2019 https://www.forbes.com
+www.forbes.com###brightcove_perform_0_html5_api
+www.forbes.com###brightcove_perform_0
+www.forbes.com##.video-close
+
+! 9/24/2019 https://open.spotify.com
+open.spotify.com##.btn-black.btn--no-margin.btn
+open.spotify.com##.NavBar__download-item.navBar-item--with-icon-left.navBar-item > .ellipsis-one-line.navBar-link.link-subtle
+
+! 10/9/2019 https://trakt.tv
+||trakt.tv/assets/b12a4c/pl-d-01-6bec1976b80995dbad347403078d1e29.jpg$image
+||trakt.tv/assets/c07ab1/desktop-text-1cd304e5f6f15e05a5af125deb5bb068.png$image
+trakt.tv###snhb-trakt\.tv_incontent_5-0
+||trakt.tv/assets/c07ab1/desktop-text-1cd304e5f6f15e05a5af125deb5bb068.png$image
+trakt.tv###snhb-in_content-3-0
+trakt.tv###hu-ck-ster-desk-top-wrapper
+
+! 10/9/2019 https://www.reddit.com
+www.reddit.com##._1vYrJH5uc57mZQJPN4l34E > ._2vEf-C2keJaBMY9qk_BxVn > .googad.box_ad.adsense-ad.ads-area.adbox1.adbar.ad-banner.ad-300-250.SidebarAd.LeftAd.InArticleAd.HomeAds.GoogleAd._4ELfhcLRELWhYrOp6R4se
+
+! 10/22/2019 https://duckduckgo.com
+duckduckgo.com##.header__label.showcase.header--aside__item
+duckduckgo.com##.social.header--aside__item
+
+duckduckgo.com##.js-ia-modules.ia-modules
+
+! 10/29/2019 https://www.macappdownload.com
+www.macappdownload.com###mZqCoAeQipQQW7xM3GtIJvPVo4Pi24
+www.macappdownload.com###bVBfAC01LKQyQRjTutU1zmFZEUTqYw
+www.macappdownload.com###uY04dUETqegLLkS76naREEePumOdzJ
+
+! 11/5/2019 https://piratebayproxy.tf
+piratebayproxy.tf###lkcp9
+piratebayproxy.tf###bm3ar11
+
+! 2021-06-16 https://www.youtube.com
+www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+
+! 2021-07-23 https://trakt.tv
+trakt.tv###inbox-wrapper
+trakt.tv##.dark.top
+
+! 2021-10-26 https://secure.icicidirect.com
+secure.icicidirect.com##.modal-content
+secure.icicidirect.com###model_data
+
+! 2022-01-11 https://mint.intuit.com
+mint.intuit.com##.promotions-personalized-offers-ui-single-offer
+mint.intuit.com##.adviceWidget.CardView
+
