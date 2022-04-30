@@ -16,6 +16,7 @@ services:
             - OPENVPN_USERNAME=safa@gmail.com
             - OPENVPN_PASSWORD=sagfawr
             - LOCAL_NETWORK=192.168.0.0/24
+            - TRANSMISSION_WEB_UI=transmission-web-control
             - TRANSMISSION_DOWNLOAD_DIR=/downloading
             - TRANSMISSION_INCOMPLETE_DIR=/incomplete
             - TRANSMISSION_WATCH_DIR=/downloads_watch
