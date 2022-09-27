@@ -53,3 +53,7 @@ alias is='ionic serve'
 
 # application shorthand
 alias textedit='open -a TextEdit'
+
+
+## SSH
+alias spi='ssh kautilya@192.168.0.88'

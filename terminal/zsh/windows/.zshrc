@@ -216,3 +216,6 @@ alias open='explorer.exe'
 
 
 
+## SSH
+alias spi='ssh kautilya@192.168.0.88'
+
