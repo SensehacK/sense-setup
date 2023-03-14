@@ -3,12 +3,6 @@ services:
     transmission-openvpn:
         cap_add:
             - NET_ADMIN
-        volumes:
-            - /media/pi/SensehackMedia/Downloads:/downloads
-            - /media/pi/SensehackMedia/Downloads/downloading:/downloading
-            - /media/pi/SensehackMedia/Downloads/incomplete:/incomplete
-            - /media/pi/SensehackMedia/Downloads/completed:/downloads_complete
-            - /media/pi/SensehackMedia/Downloads/watch:/downloads_watch
             
         environment:
             - OPENVPN_PROVIDER=VPNUNLIMITED
@@ -26,6 +20,14 @@ services:
                 max-size: 10m
         ports:
             - '9091:9091'
+
+        volumes:
+            - /media/pi/SensehackMedia/Downloads:/downloads
+            - /media/pi/SensehackMedia/Downloads/downloading:/downloading
+            - /media/pi/SensehackMedia/Downloads/incomplete:/incomplete
+            - /media/pi/SensehackMedia/Downloads/completed:/downloads_complete
+            - /media/pi/SensehackMedia/Downloads/watch:/downloads_watch    
+        restart: unless-stopped
 
         image: haugene/transmission-openvpn
         container_name: transmission-vpn
