@@ -5,7 +5,10 @@ SAVEHIST=1000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/Users/SensehacK/.zshrc'
+zstyle :compinstall filename '/Users/ksave957/.zshrc'
+
+export PATH=/opt/homebrew/bin:$PATH
+
 
 autoload -Uz compinit
 compinit
@@ -28,6 +31,12 @@ echo "$__sensehack"
 echo "$__ksWelcome"
 
 
+# Theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# ohMyZsh Plugins
+plugins=(git xcode systemadmin colorize)
+
 # Git Alias
 alias gs='git status '
 alias ga='git add '
@@ -36,11 +45,10 @@ alias gb='git branch '
 alias gc='git commit '
 alias gcm='git commit -m '
 alias go='git checkout '
-alias goo='git checkout master '
 alias gss='git stash '
 alias gsa='git stash apply '
-alias grv='git remote -v '
-alias gp='git push '
+
+
 
 # alias hello='echo "$__ksWelcome" '
 # alias ks="echo 'Kautilya, This is it!' "
@@ -70,7 +78,22 @@ alias textedit='open -a TextEdit'
 
 # Services shorthand
 alias audioR="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`"
-alias ks2='echo "$__ksWelcome"'
+
+
+## SSH
+alias spi='ssh kautilya@192.168.0.88'
+
+
+## CURL Commands
+
+### External IP
+alias ipe='curl http://ipinfo.io/ip'
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias yt-dl='yt-dlp -f bestvideo+bestaudio'
+
 
 # Android Studio Path 
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -78,4 +101,3 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
