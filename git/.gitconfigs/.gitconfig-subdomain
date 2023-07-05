@@ -1,0 +1,7 @@
+[user]
+  name = Kautilya
+  email = kautilya_save@email.com
+[github]
+  user = ksave
+[core]
+  sshCommand = "ssh -i ~/.ssh/company_git_p"

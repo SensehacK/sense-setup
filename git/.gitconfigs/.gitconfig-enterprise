@@ -1,0 +1,7 @@
+[user]
+  name = Kautilya
+  email = kautilya_save@email.com
+[github]
+  user = ksaves
+[core]
+  sshCommand = "ssh -i ~/.ssh/git_github_no_sub_domain"

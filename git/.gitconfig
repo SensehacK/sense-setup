@@ -1,0 +1,11 @@
+[includeif "gitdir:~/git/github_sensehack/"]
+    path = ~/.gitconfigs/.gitconfig-personal
+[includeif "gitdir:~/git/github_internal/"]
+    path = ~/.gitconfigs/.gitconfig--subdomain
+[includeif "gitdir:~/git/cloud/"]
+    path = ~/.gitconfigs/.gitconfig--enterprise
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
