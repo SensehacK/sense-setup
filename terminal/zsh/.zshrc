@@ -11,15 +11,21 @@ HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
 # End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/Users/ksave957/.zshrc'
+
+
+
+
 
 export PATH=/opt/homebrew/bin:$PATH
 
 
-autoload -Uz compinit
-compinit
+# The following lines were added by compinstall
+# zstyle :compinstall filename '/Users/ksave957/.zshrc'
+# # Commenting Completion system since relying on a plugin 
+# autoload -Uz compinit
+# compinit
 # End of lines added by compinstall
+
 clear && printf '\e[3J'
 #Variables declared
 __sensehack="***************************
@@ -38,11 +44,6 @@ echo "$__sensehack"
 echo "$__ksWelcome"
 
 
-# Theme
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-# ohMyZsh Plugins
-plugins=(git xcode systemadmin colorize)
 
 # Git Alias
 alias gs='git status '
@@ -79,7 +80,6 @@ alias is='ionic serve'
 
 
 
-
 # application shorthand
 alias textedit='open -a TextEdit'
 
@@ -99,9 +99,34 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+## Youtube Dl
 alias yt-dl='yt-dlp -f bestvideo+bestaudio'
 
+
+
+# Clean Derived Data and Dependency Manager Cache
+alias nukeemall='yes | rm -rf \"$(getconf DARWIN_USER_CACHE_DIR)org.llvm.clang/ModuleCache\"; rm -rf ~/Library/Developer/Xcode/DerivedData; rm -rf ~/Library/Caches/com.apple.dt.Xcode;  rm -rf ~/Library/Caches/carthage/; rm -rf ~/Library/Caches/org.carthage.CarthageKit/; rm -rf ${TMPDIR}TemporaryItems/\*carthage\*'
+
+
+
+# ## Power Level 10K customization
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# Theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+## iTerm integration
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+
+# ohMyZsh Plugins
+# plugins=(zsh-autosuggestions git colorize)
+# source ~/.oh-my-zsh/plugins/git/git.plugin.zsh
+# source ~/.oh-my-zsh/plugins/vscode/vscode.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting vscode )
