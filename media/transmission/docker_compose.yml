@@ -6,10 +6,11 @@ services:
             
         environment:
             - OPENVPN_PROVIDER=VPNUNLIMITED
-            - OPENVPN_CONFIG=ca-tr
+            #- OPENVPN_CONFIG=ca-tr
+            - OPENVPN_CONFIG=fr
             - OPENVPN_USERNAME=safa@gmail.com
             - OPENVPN_PASSWORD=sagfawr
-            - LOCAL_NETWORK=192.168.0.0/24
+            - LOCAL_NETWORK=10.0.0.0/24
             - TRANSMISSION_WEB_UI=transmission-web-control
             - TRANSMISSION_DOWNLOAD_DIR=/downloading
             - TRANSMISSION_INCOMPLETE_DIR=/incomplete
@@ -27,6 +28,7 @@ services:
             - /media/pi/SensehackMedia/Downloads/incomplete:/incomplete
             - /media/pi/SensehackMedia/Downloads/completed:/downloads_complete
             - /media/pi/SensehackMedia/Downloads/watch:/downloads_watch    
+        #
         restart: unless-stopped
 
         image: haugene/transmission-openvpn
