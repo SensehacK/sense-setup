@@ -1,0 +1,163 @@
+{
+    "combos": [
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:11:13.874",
+            "description": "",
+            "enabled": true,
+            "keyword": ":ksg",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:11:47.005",
+            "name": "",
+            "snippet": "kautilyasave@gmail.com\n",
+            "uuid": "{f914087b-2fb2-475a-b6b0-e9b9d0bdba9d}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:12:36.624",
+            "description": "",
+            "enabled": true,
+            "keyword": ":info",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:13:47.126",
+            "name": "",
+            "snippet": "Kautilya Save\nSoftware Engineer - Mobile  \n+1 (650) 933-7177\nkautilyasave@gmail.com\nResume: https://bit.ly/3KHH3zS\n  \nhttps://in.linkedin.com/in/kautilyasave  \nhttps://sensehack.github.io/\nhttps://github.com/SensehacK\n\n\n",
+            "uuid": "{7ddb5fca-5f4d-4dd6-b036-c4f06bedddf3}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:12:57.185",
+            "description": "",
+            "enabled": true,
+            "keyword": ";k",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:13:10.074",
+            "name": "",
+            "snippet": "Kautilya\n",
+            "uuid": "{ed5767d1-c87e-4e78-9ce7-a13b079b425a}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:13:49.425",
+            "description": "",
+            "enabled": true,
+            "keyword": ":ph",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:13:55.841",
+            "name": "",
+            "snippet": "+1 (650) 933-7177",
+            "uuid": "{ca8995c3-6dd5-46a1-ad8c-fc8630e2112c}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:13:58.814",
+            "description": "",
+            "enabled": true,
+            "keyword": ":msgL",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:14:25.334",
+            "name": "",
+            "snippet": "Hope you're doing great.\n\nI'm Kautilya - Software Engineer - Mobile / Web \n\nLooking for an iOS Mobile role\nWould appreciate you referring for a job position at your current company.\n\nResume: https://bit.ly/3KHH3zS\n",
+            "uuid": "{c20496df-7bdc-44be-90bb-fafe2f6d6be0}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:14:32.527",
+            "description": "",
+            "enabled": true,
+            "keyword": ":link",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:14:38.471",
+            "name": "",
+            "snippet": "https://in.linkedin.com/in/kautilyasave",
+            "uuid": "{94e926b2-e16e-40c5-a133-e6945298ef35}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:15:03.033",
+            "description": "",
+            "enabled": true,
+            "keyword": ":sen",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:15:14.907",
+            "name": "",
+            "snippet": "https://sensehack.github.io/",
+            "uuid": "{a0a5bb0b-7f44-46fb-bffb-418523d5bbcf}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:15:19.605",
+            "description": "",
+            "enabled": true,
+            "keyword": ":git",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:15:23.566",
+            "name": "",
+            "snippet": "https://github.com/SensehacK",
+            "uuid": "{82c6ab37-91e7-4527-b2b7-7f2687176fe9}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T18:37:49.193",
+            "description": "",
+            "enabled": true,
+            "keyword": ":addr",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T18:37:54.608",
+            "name": "",
+            "snippet": "4751 W 89th Way, Westminster, CO 80031",
+            "uuid": "{c8ca9ba7-dc31-410f-9e20-a73e4ccd49ad}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-07T20:04:51.689",
+            "description": "",
+            "enabled": true,
+            "keyword": ":pass",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-07T20:04:58.796",
+            "name": "",
+            "snippet": "wordPass@877",
+            "uuid": "{8b322847-c709-449a-b67f-77c50e383ff9}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-08T21:10:04.061",
+            "description": "",
+            "enabled": true,
+            "keyword": ":job",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-08T21:10:12.591",
+            "name": "",
+            "snippet": "Software Engineer II",
+            "uuid": "{fbe9c9a4-34ad-46a8-bf33-fc44e36ce12f}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-08T23:54:08.064",
+            "description": "",
+            "enabled": true,
+            "keyword": ":twee",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-08T23:54:15.818",
+            "name": "",
+            "snippet": "https://elegant-moonbeam-c40240.netlify.app/",
+            "uuid": "{ff2f5dad-3627-4e6b-99da-3cd7fba8f042}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-04-09T22:21:38.647",
+            "description": "",
+            "enabled": true,
+            "keyword": ":city",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-04-09T22:21:45.369",
+            "name": "",
+            "snippet": "Denver, CO",
+            "uuid": "{5c18b887-e06d-4838-b3d6-874d3a086c70}"
+        }
+    ],
+    "fileFormatVersion": 10,
+    "groups": [
+    ]
+}
