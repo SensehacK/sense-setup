@@ -37,6 +37,8 @@ services:
             - '9091:9091'
 
         volumes:
+        # This adds custom option when you want to specify `- OPENVPN_PROVIDER=custom`
+        # https://haugene.github.io/docker-transmission-openvpn/supported-providers/#using_a_local_single_ovpn_file_from_a_provider
             - /etc/openvpn/custom_2023:/etc/openvpn/custom/
             - /media/pi/SensehackMedia/Downloads:/downloads
             - /media/pi/SensehackMedia/Downloads/downloading:/downloading
@@ -48,3 +50,10 @@ services:
 
         image: haugene/transmission-openvpn
         container_name: transmission-vpn
+
+
+# Logs 
+# Other extra parameter issue
+#Options error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/vpnunlimited/ca-tr.ovpn:111: tls-cipher=DEFAULT:@SECLEVEL=0 (2.5.5)
+#Use --help for more information
+# https://github.com/haugene/vpn-configs-contrib/pull/245
