@@ -1,0 +1,21 @@
+version: '3.3'
+services:
+    discord-rich-presence-plex:
+        # environment:
+            # - PLEX_SERVER_NAME=seasfas
+        volumes:
+            - ./data:/app/data
+            - /run/user/1000:/run/app:ro
+        restart: unless-stopped
+        image: ghcr.io/phin05/discord-rich-presence-plex:latest
+        container_name: discord-rich-presence-plex
+
+
+# https://github.com/phin05/discord-rich-presence-plex
+# docker run \
+#   --volume ./data:/app/data \
+#   --volume /run/user/1000:/run/app:ro \
+#   --detach \
+#   --restart unless-stopped \
+#   --name discord-rich-presence-plex \
+#   ghcr.io/phin05/discord-rich-presence-plex:latest
