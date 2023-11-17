@@ -1,24 +1,29 @@
 ---
 version: "2.11"
 services:
-  sonarr:
-    image: ahuh/arm-jackett
-    container_name: jackett
+  jackett:
+    # This has problems starting up on Raspberry Pi v4 (64bit ARMv8) but docker / portainer space is 32Bit is my understanding.
+    # image: linuxserver/jackett:arm64v8-latest
+    # This below has `curl -vvv https://1337x.to/` SSL 443 connection refuse error for trackers
+    # image: ahuh/arm-jackett 
+    # This works fine with index / trackers
+    image: linuxserver/jackett:arm32v7-version-v0.20.754
+    container_name: jackett_new
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=UTC
-      - UMASK_SET=022 #optional
-      - AUTO_UPDATE=true `#optional`
-      - RUN_OPTS= `#optional`
+      - AUTO_UPDATE=true #optional
+      # - RUN_OPTS=<run options here> #optional
     volumes:
-      - /path/to/data:/config
-      - /path/to/blackhole:/downloads
+      - ./volumes/jackett/config:/config
+      - ./downloads:/downloads
     ports:
       - 9117:9117
     restart: unless-stopped
 
-
+# Actual Docker command
+# https://hub.docker.com/r/linuxserver/jackett
 
 # docker run -d \
 #   --name=jackett \
